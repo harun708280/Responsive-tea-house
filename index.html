@@ -22,7 +22,7 @@
             <div class="">
                 <h1 class="text-2xl md:text-6xl lg:text-7xl font-bold text-[rgb(28,28,28)]">It's good <br> tea time at The <br> Tea House</h1>
                 <p class="max-w-md text-base text-[rgb(119,119,119)] font-medium my-7">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="bg-gradient-to-r from-[rgb(255,137,56)] to-[rgb(255,0,0)] rounded text-white text-base font-bold p-3">Explore More <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
+                <button onclick="welcome()" class="bg-gradient-to-r from-[rgb(255,137,56)] to-[rgb(255,0,0)] rounded text-white text-base font-bold p-3">Explore More <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
             </div>
             <div class="relative">
                 <img src="./images/banner.png" alt="">
@@ -107,11 +107,15 @@
 
         <!-- review -->
          <div class="lg:flex my-24 gap-5 justify-between w-10/12 mx-auto rounded-xl bg-gradient-to-r from-[rgb(255,137,56)] to-[rgb(255,0,0)]">
-            <div class="w-full my-auto mx-auto">
+            <div class="w-full my-auto mx-auto relative ">
                 <h1 class="px-12 py-7 text-xl lg:text-5xl font-bold text-white">Meet Our Super <br>Clients</h1>
-                <p class="px-12 text-base font-medium text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p class="px-12 text-base font-medium text-white z-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 <div class=" px-12 py-7">
                     <button class="font-bold py-3 px-5 rounded-xl bg-white text-orange-500">Show All</button>
+                </div>
+
+                <div class="absolute -bottom-20 lg:left-52 -rotate-45 opacity-10">
+                    <img class="min-h-56" src="./images/cup.png" alt="">
                 </div>
             </div>
 
@@ -119,7 +123,7 @@
 
 
                 <div class="absolute top-48 z-10 right-16 left-7">
-                    <div class="bg-white  relative rounded-xl p-7 lg:w-3/4">
+                    <div class="bg-white  relative rounded-xl p-7 lg:w-3/4 ">
                         <p class="">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
     
                         <h4 class="mt-4">Ilham Yuda</h4>
@@ -127,6 +131,7 @@
                         <div class="absolute -top-10 -left-7 bg-white rounded-full">
                             <img src="./images/client.png" alt="">
                         </div>
+                        <!-- <div class="bg-[url('./images/client.png')]"></div> -->
                      </div>
                 </div>
                 <!-- card-1 -->
@@ -156,6 +161,106 @@
             </div>
          </div>
 
+         <div class="w-10/12 mx-auto">
+            <div class="max-w-2xl mx-auto">
+                <h3 class="text-center text-2xl lg:text-5xl font-bold">News & Events</h3>
+                <p class="text-center py-7 text-base font-medium text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 w-10/12 mx-auto">
+                <div class="border rounded border-gray-300 max-w-72 p-4">
+                    <img class="border border-dashed mb-3" src="./images/news-1.png" alt="">
+                    <small class="">Feb 05, 2027</small>
+                    <h3 class="font-bold text-xl">Collecting 8 points for discount</h3>
+                    <p class="my-2 font-medium text-base text-gray-400">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h5 class="font-bold">Learn More</h5>
+
+                </div>
+                <div class="border rounded  border-gray-300 max-w-72 p-4">
+                    <img class="border border-dashed mb-3" src="./images/news-2.png" alt="">
+                    <small class="">Feb 05, 2027</small>
+                    <h3 class="font-bold text-xl">Collecting 8 points for discount</h3>
+                    <p class="my-2 font-medium text-base text-gray-400">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h5 class="font-bold">Learn More</h5>
+
+                </div>
+                <div class="border rounded border-gray-300 max-w-72 p-4">
+                    <img class="border  border-dashed mb-3" src="./images/news-3.png" alt="">
+                    <small class="">Feb 05, 2027</small>
+                    <h3 class="font-bold text-xl">Collecting 8 points for discount</h3>
+                    <p class="my-2 font-medium text-base text-gray-400">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h5 class="font-bold">Learn More</h5>
+
+                </div>
+            </div>
+         </div>
+
     </main>
+
+    <footer class="bg-red-100 mt-16  max-w-full overflow-x-auto  w-full overflow-hidden ">
+        <div class="w-10/12 mx-auto py-20 lg:py-30">
+            <div class=" flex gap-7 lg:justify-between ">
+                <div class="">
+                    <img src="./images/cup.png" alt="">
+                </div>
+                <div class="flex items-center gap-5">
+                    <p class="font-medium text-base text-gray-500">Ready to get strated?</p>
+                    <button class="bg-gradient-to-r from-orange-400 to-red-600 text-white text-sm lg:font-bold lg:py-3 lg:px-5 rounded" type="button">Get Started</button>
+                </div>
+            </div>
+
+            <div class="lg:flex justify-between text-center mt-20">
+                <div class="">
+                    <h2 class="font-bold text-xl lg:mb-3">Quick Links</h2>
+                    <ul>
+                        <li class=" text-gray-500 font-medium"><a href="">Home</a></li>
+                        <li class="mt-1 text-gray-500 font-medium"><a href="">About Us</a></li>
+                        <li class="mt-1 text-gray-500 font-medium"><a href="">Insurance</a></li>
+                        <li class="mt-1 text-gray-500 font-medium"><a href="">Privacy Policy</a></li>
+
+                    </ul>
+                    
+                </div>
+                <div class="">
+                    <h2 class="font-bold text-xl mt-3 lg:mb-3">Our Service</h2>
+                    <ul>
+                        <li class="mt-1 text-gray-500 font-medium" ><a href="">Life Insurance</a></li>
+                        <li class="mt-1 text-gray-500 font-medium"><a href="">Car Insurance</a></li>
+                        <li class="mt-1 text-gray-500 font-medium"><a href="">Health Insurance</a></li>
+                        <li class="mt-1 text-gray-500 font-medium"><a href="">House Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h2 class="font-bold text-xl mt-3  lg:mb-3">Help</h2>
+                    <ul>
+                        <li class="mt-1 text-gray-500 font-medium"><a href="">FAQs</a></li>
+                        <li class="mt-1 text-gray-500 font-medium"><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h2 class="font-bold text-xl mt-3 lg:mb-9">Subscribe to our <br> newsletter</h2>
+                    <input placeholder="Email address" type="text" class="bg-inherit text-base py-3 border-b-2 border-black  mt-3">
+                    <i class="fa-solid fa-chevron-right inline-flex items-center justify-center text-white bg-orange-600 rounded-full h-7 w-7"></i>
+                    <div class="lg:text-left mt-7 space-x-4">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center font-bold text-gray-500 mt-5 lg:mt-28">
+                <p>© 2027 UIDesign.to - All rights reserved.</p>
+            </div>
+        </div>
+        
+
+    </footer>
+    <script>
+        function welcome(){
+            var name =prompt("Please Enter Your Name")
+            alert("Hello mr " + name)
+        }
+    </script>
 </body>
 </html>
